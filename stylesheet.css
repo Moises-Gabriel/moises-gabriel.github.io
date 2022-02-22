@@ -122,37 +122,56 @@ body
 
 .contact
 {
-  width: 30%;
+  display: block;
+  width: 50%;
+  height: 20%;
 }
 
-.contact #twitter
+.contact #twitter.twitter
 {
+  display: inline-block;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  margin-left: 0;
-  margin-bottom: 1rem;
   font-size: 1.4rem;
+  margin-bottom: 1.2rem;
   color: black;
 }
 
-.contact #email
+.contact #twitter-icon
 {
+  margin-right: 0.5rem;
+  --fa-animation-duration: 6s;
+}
+
+.contact #email.email
+{
+  display: inline-block;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  margin-left: 0;
-  margin-bottom: 7rem;
   font-size: 1.4rem;
+  margin-bottom: 1.2rem;
   color: black;
 }
 
-.contact #location
+.contact #email-icon
 {
+  margin-right: 0.5rem;
+  --fa-animation-duration: 6s;
+}
+
+.contact #location.location
+{
+  display: inline-block;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  margin-left: 0;
-  margin-bottom: 1rem;
   font-size: 1.4rem;
+  margin-bottom: 1.2rem;
   color: black;
+}
+
+.contact #location-icon
+{
+  margin-right: 0.5rem;
 }
 
 .copyright
