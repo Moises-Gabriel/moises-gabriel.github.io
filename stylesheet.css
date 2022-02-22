@@ -139,6 +139,7 @@ body
 
 .contact #twitter-icon
 {
+  display: block;
   margin-right: 0.5rem;
   --fa-animation-duration: 6s;
 }
@@ -155,6 +156,7 @@ body
 
 .contact #email-icon
 {
+  display: block;
   margin-right: 0.5rem;
   --fa-animation-duration: 6s;
 }
@@ -171,6 +173,7 @@ body
 
 .contact #location-icon
 {
+  display: block;
   margin-right: 0.5rem;
 }
 
